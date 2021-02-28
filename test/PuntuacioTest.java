@@ -31,5 +31,18 @@ public class PuntuacioTest {
         assertEquals(paraulaEsperada, paraulaSecreta, "Error en método getParaulaSecretaDificultat()");
     }
 
+    @Test
+    void verificarParaulaSecretaDificultat2() {
+        String[] paraules2 = {"periquito", "peix espasa","nectarina", "peix daurat","xinxilla","armadillo","llenties"};
+        String paraulaSecreta = this.puntuacio.getParaulaSecretaDificultat(2);
+        String paraulaEsperada = "";
+        for (String str : paraules2) {
+            if (str.equals(paraulaSecreta)){
+                paraulaEsperada = str;
+            }
+        }
+        assertEquals(paraulaEsperada, paraulaSecreta, "Error en método getParaulaSecretaDificultat()");
+    }
+
 
 }
