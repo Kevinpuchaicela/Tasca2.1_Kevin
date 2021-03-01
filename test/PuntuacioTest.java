@@ -67,9 +67,17 @@ public class PuntuacioTest {
     }
 
     @Test
-    void verificarGetIntents(){
+    void verificarGetIntents() {
         this.puntuacio.getParaulaSecretaDificultat(3);
         assertEquals(3, this.puntuacio.getIntents(), "Error en obtener los intentos.");
+    }
+
+    @Test
+    void verificarGetTemps() {
+        String[] palabra = new String[]{"p", "e", "r", "i", "q", "u", "i", "t", "o"};
+        float p = puntuacio.calcularPuntuacio(palabra, 2);
+        //El tiempo varia por lo que no se como hacer que el tiempo para el test sea estico o otra forma de hacerlo.
+        assertEquals(1, this.puntuacio.getTemps(), "Error en obtener el tiempo.");
     }
 
 
