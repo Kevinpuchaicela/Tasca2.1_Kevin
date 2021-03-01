@@ -66,5 +66,11 @@ public class PuntuacioTest {
 
     }
 
+    @Test
+    void verificarGetIntents(){
+        this.puntuacio.getParaulaSecretaDificultat(3);
+        assertEquals(3, this.puntuacio.getIntents(), "Error en obtener los intentos.");
+    }
+
 
 }
