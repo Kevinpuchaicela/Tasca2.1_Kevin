@@ -57,5 +57,14 @@ public class PuntuacioTest {
         assertEquals(paraulaEsperada, paraulaSecreta, "Error en método getParaulaSecretaDificultat()");
     }
 
+    @Test
+    void verificarCalcularPuntuacio() {
+        String[] palabra = new String[]{"p", "e", "r", "i", "q", "u", "i", "t", "o"};
+        float p = puntuacio.calcularPuntuacio(palabra, 2);
+        assertEquals(0.0, p, "Error en calcular la puntuación");
+
+
+    }
+
 
 }

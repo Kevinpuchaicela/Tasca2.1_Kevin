@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8982f0f-ec53-4ab3-9fc2-0eedff4ec782" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Tasca2.1_Kevin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/Tasca2.1_Kevin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/com/jaume/penjat/Penjat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/com/jaume/penjat/Puntuacio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/com/jaume/penjat/Tauler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/com/jaume/penjat/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/test/PuntuacioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/test/TaulerTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1p9eZEEpGZprsmCc1Y0qopYs7WE" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="flattenPackages" value="true" />
@@ -7,6 +33,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
@@ -42,5 +75,31 @@
         <item itemvalue="JUnit.PuntuacioTest.verificarParaulaSecretaDificultat3" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8982f0f-ec53-4ab3-9fc2-0eedff4ec782" name="Default Changelist" comment="" />
+      <created>1614599788497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614599788497</updated>
+      <workItem from="1614599793794" duration="255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
