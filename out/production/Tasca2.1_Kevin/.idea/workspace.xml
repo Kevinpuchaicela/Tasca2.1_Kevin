@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8982f0f-ec53-4ab3-9fc2-0eedff4ec782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Tasca2.1_Kevin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/Tasca2.1_Kevin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/com/jaume/penjat/Penjat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/com/jaume/penjat/Puntuacio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/com/jaume/penjat/Tauler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/com/jaume/penjat/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/test/PuntuacioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasca2.1_Kevin/test/TaulerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +10,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hotfix/correcionTestTemps" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1p9eZEEpGZprsmCc1Y0qopYs7WE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="flattenPackages" value="true" />
@@ -33,28 +34,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PuntuacioTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PuntuacioTest.verificarParaulaSecretaDificultat3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PuntuacioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasca2.1_Kevin" />
       <extension name="coverage">
         <pattern>
@@ -64,15 +72,81 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.PuntuacioTest" />
-      <option name="METHOD_NAME" value="verificarParaulaSecretaDificultat3" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuntuacioTest.verificarCalcularPuntuacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasca2.1_Kevin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PuntuacioTest" />
+      <option name="METHOD_NAME" value="verificarCalcularPuntuacio" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuntuacioTest.verificarGetTemps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasca2.1_Kevin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PuntuacioTest" />
+      <option name="METHOD_NAME" value="verificarGetTemps" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuntuacioTest.verificarParaulaSecretaDificultat1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasca2.1_Kevin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PuntuacioTest" />
+      <option name="METHOD_NAME" value="verificarParaulaSecretaDificultat1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PuntuacioTest.verificarParaulaSecretaDificultat3" />
+        <item itemvalue="JUnit.PuntuacioTest" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.PuntuacioTest.verificarCalcularPuntuacio" />
+        <item itemvalue="JUnit.PuntuacioTest.verificarParaulaSecretaDificultat1" />
+        <item itemvalue="JUnit.PuntuacioTest.verificarGetTemps" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +158,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614599788497</updated>
-      <workItem from="1614599793794" duration="255000" />
+      <workItem from="1614599793794" duration="11690000" />
+      <workItem from="1614766507491" duration="20000" />
+      <workItem from="1614772056284" duration="6497000" />
+      <workItem from="1614787092290" duration="581000" />
     </task>
     <servers />
   </component>
@@ -101,5 +178,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
