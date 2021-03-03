@@ -59,11 +59,32 @@ public class PuntuacioTest {
 
     @Test
     void verificarCalcularPuntuacio() {
+        String[] paraules3 = {"escombraries", "escopinyes", "engronxador", "desnonament", "malhauradament", "malbaratament",};
+        String paraulaSecreta = this.puntuacio.getParaulaSecretaDificultat(3);
+        String[] paraulaEsperada = new String[paraulaSecreta.length()];
+
+        for (int i = 0; i < paraulaEsperada.length; i++) {
+            paraulaEsperada[i] = Character.toString(paraulaSecreta.charAt(i));
+        }
+        // posiblemente cambie el puntuaje debido a que he podido controlar el tiempo dinamico. Seria de volver a iniciar este test.
+        float p = puntuacio.calcularPuntuacio(paraulaEsperada, 2);
+        assertEquals(610, p, "Error en calcular la puntuación");
+
+
+    }
+
+    @Test
+    void verificarGetIntents() {
+        this.puntuacio.getParaulaSecretaDificultat(3);
+        assertEquals(3, this.puntuacio.getIntents(), "Error en obtener los intentos.");
+    }
+
+    @Test
+    void verificarGetTemps() {
         String[] palabra = new String[]{"p", "e", "r", "i", "q", "u", "i", "t", "o"};
         float p = puntuacio.calcularPuntuacio(palabra, 2);
-        assertEquals(0.0, p, "Error en calcular la puntuación");
-
-
+        //El tiempo varia por lo que no se como hacer que el tiempo para el test sea estico o otra forma de hacerlo.
+        assertEquals(1, this.puntuacio.getTemps(), "Error en obtener el tiempo.");
     }
 
 
