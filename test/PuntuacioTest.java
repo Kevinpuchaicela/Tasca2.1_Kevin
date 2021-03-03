@@ -59,9 +59,16 @@ public class PuntuacioTest {
 
     @Test
     void verificarCalcularPuntuacio() {
-        String[] palabra = new String[]{"p", "e", "r", "i", "q", "u", "i", "t", "o"};
-        float p = puntuacio.calcularPuntuacio(palabra, 2);
-        assertEquals(0.0, p, "Error en calcular la puntuación");
+        String[] paraules3 = {"escombraries", "escopinyes", "engronxador", "desnonament", "malhauradament", "malbaratament",};
+        String paraulaSecreta = this.puntuacio.getParaulaSecretaDificultat(3);
+        String[] paraulaEsperada = new String[paraulaSecreta.length()];
+
+        for (int i = 0; i < paraulaEsperada.length; i++) {
+            paraulaEsperada[i] = Character.toString(paraulaSecreta.charAt(i));
+        }
+        // posiblemente cambie el puntuaje debido a que he podido controlar el tiempo dinamico. Seria de volver a iniciar este test.
+        float p = puntuacio.calcularPuntuacio(paraulaEsperada, 2);
+        assertEquals(610, p, "Error en calcular la puntuación");
 
 
     }
