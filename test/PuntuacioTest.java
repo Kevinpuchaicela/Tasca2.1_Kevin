@@ -4,6 +4,8 @@ import com.jaume.penjat.Puntuacio;
 import com.jaume.penjat.Tauler;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.concurrent.TimeUnit;
 
@@ -75,10 +77,26 @@ public class PuntuacioTest {
 
     }
 
-    @Test
-    void verificarGetIntents() {
-        this.puntuacio.getParaulaSecretaDificultat(3);
-        assertEquals(3, this.puntuacio.getIntents(), "Error en obtener los intentos.");
+    @ParameterizedTest
+    @ValueSource(ints = {1, 2, 3})
+    void verificarGetIntents(int number) {
+        this.puntuacio.getParaulaSecretaDificultat(number);
+        int result = 0;
+        switch (number) {
+            case 1:
+                result = 5;
+                break;
+            case 2:
+                result = 4;
+                break;
+            case 3:
+                result = 3;
+                break;
+            default:;
+                break;
+
+        }
+        assertEquals(result, this.puntuacio.getIntents(), "Error en obtener los intentos.");
     }
 
     @Test
