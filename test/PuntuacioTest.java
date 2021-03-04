@@ -5,6 +5,8 @@ import com.jaume.penjat.Tauler;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PuntuacioTest {
@@ -80,11 +82,11 @@ public class PuntuacioTest {
     }
 
     @Test
-    void verificarGetTemps() {
+    void verificarGetTemps() throws InterruptedException {
         String[] palabra = new String[]{"p", "e", "r", "i", "q", "u", "i", "t", "o"};
         float p = puntuacio.calcularPuntuacio(palabra, 2);
-        //El tiempo varia por lo que no se como hacer que el tiempo para el test sea estico o otra forma de hacerlo.
-        assertEquals(1, this.puntuacio.getTemps(), "Error en obtener el tiempo.");
+        TimeUnit.SECONDS.sleep(1);
+        assertNotEquals(0, this.puntuacio.getTemps(), "Error en obtener el tiempo.");
     }
 
 
